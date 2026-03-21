@@ -27,7 +27,7 @@
 }
 
 .card--module-intro {
-    --module-logo: url("../images/module-intro.png");
+    --module-logo: none;
 }
 
 .card--module-word {
@@ -43,7 +43,7 @@
 }
 
 .card--module-cv {
-    --module-logo: url("../images/cv-logo.png");
+    --module-logo: none;
 }
 
 .card--module-google-forms {
@@ -63,8 +63,16 @@
     opacity: 1;
 }
 
-.home-page .card h3,
-.home-page .card p {
+.home-page .card--module-word h3,
+.home-page .card--module-word p,
+.home-page .card--module-powerpoint h3,
+.home-page .card--module-powerpoint p,
+.home-page .card--module-excel h3,
+.home-page .card--module-excel p,
+.home-page .card--module-google-forms h3,
+.home-page .card--module-google-forms p,
+.home-page .card--module-email h3,
+.home-page .card--module-email p {
     padding-right: 86px;
 }
 
@@ -81,8 +89,16 @@
         opacity: 1;
     }
 
-    .home-page .card h3,
-    .home-page .card p {
+    .home-page .card--module-word h3,
+    .home-page .card--module-word p,
+    .home-page .card--module-powerpoint h3,
+    .home-page .card--module-powerpoint p,
+    .home-page .card--module-excel h3,
+    .home-page .card--module-excel p,
+    .home-page .card--module-google-forms h3,
+    .home-page .card--module-google-forms p,
+    .home-page .card--module-email h3,
+    .home-page .card--module-email p {
         padding-right: 72px;
     }
 }
