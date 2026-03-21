@@ -1,0 +1,160 @@
+{
+  "sessions": [
+    {
+      "order": 1,
+      "module": "intro",
+      "sessionNumber": "Session 1",
+      "title": "Introduction",
+      "description": "Sets the foundation for the course by walking students through the evolution of computers, hardware fundamentals, and the essential software tools they will be using.",
+      "videoUrl": "https://www.youtube.com/watch?v=eYhCLgA13Nw&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=16&t=989s&pp=iAQB",
+      "pdfUrl": "assets/materials/Introduction.pdf"
+    },
+    {
+      "order": 2,
+      "module": "word",
+      "sessionNumber": "Session 2",
+      "title": "Getting Started with Microsoft Word",
+      "description": "Transitions from basic computer concepts to practical, hands-on skills, introducing students to word processing and document creation.",
+      "videoUrl": "https://www.youtube.com/watch?v=NyRZnNnxilQ&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=15&t=6s&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_2_MS_Word_PDF.pdf"
+    },
+    {
+      "order": 3,
+      "module": "word",
+      "sessionNumber": "Session 3",
+      "title": "Page Layout and Paragraph Formatting",
+      "description": "Builds on basic text skills by teaching students how to structure their documents professionally, focusing on overall page design and paragraph readability.",
+      "videoUrl": "https://www.youtube.com/watch?v=wngs7f1htPI&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=14&t=5s&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_3_MS_Word_PDF.pdf"
+    },
+    {
+      "order": 4,
+      "module": "word",
+      "sessionNumber": "Session 4",
+      "title": "Clipboard, Styles, Headers, Footers and Page Elements",
+      "description": "Introduces tools that help save time and give documents a polished, uniform structure.",
+      "videoUrl": "https://www.youtube.com/watch?v=Ku3sqUivU54&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=13&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_4_MS_Word_PDF.pdf"
+    },
+    {
+      "order": 5,
+      "module": "word",
+      "sessionNumber": "Session 5",
+      "title": "Tables, Images, Shapes, Drop Cap and Linking",
+      "description": "Focuses on visual elements and interactivity, teaching students how to organize information and make their documents visually appealing.",
+      "videoUrl": "https://www.youtube.com/watch?v=zOTkfKqDF00&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=12&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_5_MS_Word_PDF.pdf"
+    },
+    {
+      "order": 6,
+      "module": "word",
+      "sessionNumber": "Session 6",
+      "title": "Final Word Assignment",
+      "description": "A capstone project where students combine all their newly acquired skills to create a comprehensive Learning Journal.",
+      "videoUrl": "https://www.youtube.com/watch?v=npdCVHmPc2Q&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=11&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_6_MS_Word.pdf",
+      "isAssignment": true
+    },
+    {
+      "order": 7,
+      "module": "powerpoint",
+      "sessionNumber": "Session 7",
+      "title": "Introduction to PowerPoint - Slides, Layouts, and Design Themes",
+      "description": "Kicks off the presentation module by giving students a guided tour of the PowerPoint interface and teaching them how to build, format, and style their first slide deck from scratch.",
+      "videoUrl": "https://www.youtube.com/watch?v=rgCVhum8lk4&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=10&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_7_MS_PowerPoint.pdf"
+    },
+    {
+      "order": 8,
+      "module": "powerpoint",
+      "sessionNumber": "Session 8",
+      "title": "Adding Images, Charts, SmartArt, and Tables",
+      "description": "Focuses on replacing walls of text with engaging visual elements to make presentations easier to understand and more professional.",
+      "videoUrl": "https://www.youtube.com/watch?v=yivvVeSz1P4&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=9&t=3s&pp=iAQB0gcJCcUKAYcqIYzv",
+      "pdfUrl": "assets/materials/Session_8_MS_PowerPoint.pdf"
+    },
+    {
+      "order": 9,
+      "module": "powerpoint",
+      "sessionNumber": "Session 9",
+      "title": "Transitions, Animations, and Presenting Slides",
+      "description": "Brings presentations to life with movement and provides students with the tools they need to present confidently to an audience.",
+      "videoUrl": "https://www.youtube.com/watch?v=8WyPF5DKwts&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=8&t=7s&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_9_MS_PowerPoint.pdf"
+    },
+    {
+      "order": 10,
+      "module": "powerpoint",
+      "sessionNumber": "Session 10",
+      "title": "PowerPoint Mini Project",
+      "description": "The capstone project for the PowerPoint module. Students combine all their formatting, visual, and animation skills into a final, polished presentation.",
+      "videoUrl": "https://www.youtube.com/watch?v=sEUEwCxns6c&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=7&t=4175s&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_10_MS_PowerPoint.pdf",
+      "isAssignment": true
+    },
+    {
+      "order": 11,
+      "module": "cv",
+      "sessionNumber": "Session 11",
+      "title": "Smart CV Creation",
+      "description": "Shifts the focus to career readiness, teaching students how to build a professional, ATS-friendly resume using modern tools.",
+      "videoUrl": "https://www.youtube.com/watch?v=rlGhvLvjAUo&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=6&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_11_CV.pdf"
+    },
+    {
+      "order": 12,
+      "module": "excel",
+      "sessionNumber": "Session 12",
+      "title": "Introduction to Excel",
+      "description": "Introduces the world of spreadsheets, setting the foundational skills needed to organize, calculate, and analyze data.",
+      "videoUrl": "https://www.youtube.com/watch?v=8FM28faPz1Y&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=5&t=4s&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_12_MS_Excel.pdf"
+    },
+    {
+      "order": 13,
+      "module": "excel",
+      "sessionNumber": "Session 13",
+      "title": "Excel Formulas: SUM, AVERAGE, MIN, MAX",
+      "description": "Moving beyond manual data entry, teaches students how to make Excel do the heavy lifting with automated mathematical calculations and logic.",
+      "videoUrl": "https://www.youtube.com/watch?v=cEJhtvVVj9s&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=4&t=2s&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_13_MS_Excel.pdf"
+    },
+    {
+      "order": 14,
+      "module": "excel",
+      "sessionNumber": "Session 14",
+      "title": "Sorting, Tables and Referencing in Excel",
+      "description": "Focuses on organizing large amounts of data efficiently and making formulas scalable and reusable.",
+      "videoUrl": "https://www.youtube.com/watch?v=d6NmeaPxMUM&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=3&t=11s&pp=iAQB0gcJCcUKAYcqIYzv",
+      "pdfUrl": "assets/materials/Session_14_MS_Excel.pdf"
+    },
+    {
+      "order": 15,
+      "module": "excel",
+      "sessionNumber": "Session 15",
+      "title": "Visualizing Data with Charts",
+      "description": "Teaches students how to transform boring spreadsheets into clear, professional visual reports.",
+      "videoUrl": "https://www.youtube.com/watch?v=KX8iiFQ5i0o&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=2&t=320s&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_15_MS_Excel.pdf"
+    },
+    {
+      "order": 16,
+      "module": "excel",
+      "sessionNumber": "Session 16",
+      "title": "Advanced Data Retrieval",
+      "description": "Dives into corporate-level Excel skills, teaching students how to instantly find data and build interactive dashboards.",
+      "videoUrl": "https://www.youtube.com/watch?v=clOQkOcSpdU&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=1&t=4447s&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_16_MS_Excel.pdf"
+    },
+    {
+      "order": 17,
+      "module": "excel",
+      "sessionNumber": "Session 17",
+      "title": "Excel Capstone Project",
+      "description": "The grand finale. Students step into the role of a Campus Data Analyst to solve a real-world administrative problem using everything they have learned.",
+      "videoUrl": "https://www.youtube.com/watch?v=_RS7oCM6DJk&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=17&pp=iAQB",
+      "pdfUrl": "assets/materials/Session_17_Excel_Capstone_Project.pdf",
+      "isAssignment": true
+    }
+  ]
+}
