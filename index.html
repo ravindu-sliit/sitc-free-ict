@@ -91,13 +91,13 @@
             font-family: var(--font-headings);
             font-weight: 700;
             text-decoration: none;
-            border-radius: 10px; /* Extracted from SITC code */
+            border-radius: 10px;
             transition: all 0.3s ease;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
         }
 
         .btn:hover {
-            background-color: #981530; /* Slightly darker red for hover */
+            background-color: #981530;
             transform: translateY(-2px);
         }
 
@@ -116,7 +116,6 @@
 
         .grid {
             display: grid;
-            /* This makes it perfectly responsive for Mobile and PC automatically */
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
         }
@@ -128,6 +127,8 @@
             padding: 25px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.08);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
         }
 
         .card:hover {
@@ -144,6 +145,7 @@
             font-size: 0.95rem;
             margin-bottom: 20px;
             color: #666;
+            flex-grow: 1; /* Pushes the button to the bottom */
         }
 
         .card-footer {
@@ -164,7 +166,6 @@
             font-size: 0.9rem;
         }
 
-        /* Mobile Adjustments */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2rem;
@@ -176,7 +177,7 @@
 
     <header>
         <a href="#" class="logo">SITC | ICT Course</a>
-        </header>
+    </header>
 
     <section class="hero">
         <h1>Free ICT Foundation Course</h1>
@@ -185,35 +186,72 @@
     </section>
 
     <div class="container" id="materials">
-        <h2 class="section-title">Lecture Modules</h2>
+        <h2 class="section-title">Course Modules</h2>
         
         <div class="grid">
             <div class="card">
-                <h3>Week 1: Introduction to ICT</h3>
-                <p>Understanding computer hardware, software, and the basics of operating systems.</p>
+                <h3>1. Introduction to ICT</h3>
+                <p>Hardware, software, and the basics of computer operations.</p>
                 <div class="card-footer">
-                    <span style="color: var(--primary-blue); font-weight: bold;">Lecture 01</span>
-                    <a href="#" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">Download PDF</a>
+                    <span style="color: var(--primary-blue); font-weight: bold;">Module 01</span>
+                    <a href="intro.html" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">View Materials</a>
                 </div>
             </div>
 
             <div class="card">
-                <h3>Week 2: Networking Basics</h3>
-                <p>Introduction to IP addresses, local area networks, and internet protocols.</p>
+                <h3>2. MS Word</h3>
+                <p>Document creation, formatting, and professional layouts.</p>
                 <div class="card-footer">
-                    <span style="color: var(--primary-blue); font-weight: bold;">Lecture 02</span>
-                    <a href="#" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">Download PDF</a>
+                    <span style="color: var(--primary-blue); font-weight: bold;">Module 02</span>
+                    <a href="ms-word.html" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">View Materials</a>
                 </div>
             </div>
 
             <div class="card">
-                <h3>Week 3: Web Fundamentals</h3>
-                <p>Getting started with the building blocks of the web: HTML and CSS.</p>
+                <h3>3. MS PowerPoint</h3>
+                <p>Designing engaging slides and effective presentations.</p>
                 <div class="card-footer">
-                    <span style="color: var(--primary-blue); font-weight: bold;">Lecture 03</span>
-                    <a href="#" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">Download PDF</a>
+                    <span style="color: var(--primary-blue); font-weight: bold;">Module 03</span>
+                    <a href="ms-powerpoint.html" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">View Materials</a>
                 </div>
             </div>
+
+            <div class="card">
+                <h3>4. MS Excel</h3>
+                <p>Spreadsheets, data entry, basic formulas, and functions.</p>
+                <div class="card-footer">
+                    <span style="color: var(--primary-blue); font-weight: bold;">Module 04</span>
+                    <a href="ms-excel.html" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">View Materials</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>5. Professional CV</h3>
+                <p>Structuring and designing a standout resume for the job market.</p>
+                <div class="card-footer">
+                    <span style="color: var(--primary-blue); font-weight: bold;">Module 05</span>
+                    <a href="cv.html" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">View Materials</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>6. Google Forms</h3>
+                <p>Creating surveys, quizzes, and collecting data online.</p>
+                <div class="card-footer">
+                    <span style="color: var(--primary-blue); font-weight: bold;">Module 06</span>
+                    <a href="google-forms.html" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">View Materials</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>7. Email Etiquette</h3>
+                <p>Professional communication, formatting, and email management.</p>
+                <div class="card-footer">
+                    <span style="color: var(--primary-blue); font-weight: bold;">Module 07</span>
+                    <a href="email.html" class="btn" style="padding: 8px 15px; font-size: 0.9rem;">View Materials</a>
+                </div>
+            </div>
+
         </div>
     </div>
 

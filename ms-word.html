@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#072C49">
+    <title>MS Word | Free ICT Course | SITC</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- SITC CSS Variables --- */
+        :root {
+            --primary-blue: #072C49;
+            --accent-red: #BB1A3E;
+            --text-dark: #32373c;
+            --bg-light: #f4f5f7;
+            --white: #ffffff;
+            --font-headings: 'Open Sans', sans-serif;
+            --font-body: 'Lato', sans-serif;
+        }
+
+        /* --- Global Reset & Typography --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: var(--font-headings);
+            color: var(--primary-blue);
+        }
+
+        /* --- Navigation Bar --- */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-family: var(--font-headings);
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            opacity: 0.9;
+        }
+
+        /* --- SITC Style Buttons --- */
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 12px 25px;
+            font-family: var(--font-headings);
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .btn:hover {
+            background-color: #051f34;
+            transform: translateY(-2px);
+        }
+
+        /* --- Course Modules Grid --- */
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        /* Back Link addition for subpages */
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--accent-red);
+            text-decoration: none;
+            font-weight: bold;
+            font-family: var(--font-headings);
+        }
+        .back-link:hover { text-decoration: underline; }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* --- SITC Style Cards --- */
+        .card {
+            background: var(--white);
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            color: #666;
+            flex-grow: 1; /* Pushes the button to the bottom */
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+
+        .card-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        .btn-video {
+            background-color: var(--accent-red);
+        }
+
+        .btn-video:hover {
+            background-color: #981530;
+        }
+
+        .card--assignment {
+            border: 2px solid var(--accent-red);
+        }
+
+        .card-title--assignment {
+            color: var(--accent-red);
+        }
+
+        /* --- Footer --- */
+        footer {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+    <script src="assets/js/render-cards.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">SITC | ICT Course</a>
+    </header>
+
+    <section class="hero">
+        <h1>Module 02: MS Word</h1>
+        <p>Master document creation, formatting, and professional layouts. Download your session materials below.</p>
+    </section>
+
+    <div class="container" id="materials">
+        <a href="index.html" class="back-link">&larr; Back to Course Home</a>
+        <h2 class="section-title">Lecture Sessions</h2>
+
+        <div class="grid" data-sessions-grid data-module="word"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SITC Campus | Free ICT Course Instructed by Ravindu Sooriyaarachchi</p>
+    </footer>
+
+</body>
+</html>
