@@ -7,6 +7,8 @@
     <title>Free ICT Course | SITC</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/module-card-logos.css">
+    <script src="assets/js/render-instructor.js" defer></script>
     
     <style>
         /* --- SITC CSS Variables --- */
@@ -156,6 +158,98 @@
             padding-top: 15px;
         }
 
+        /* --- Instructor Section --- */
+        .instructor-section {
+            max-width: 1200px;
+            margin: 42px auto 0 auto;
+            padding: 0 20px;
+        }
+
+        .instructor-card {
+            background: var(--white);
+            border-radius: 14px;
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+            padding: 26px;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .instructor-photo-wrap {
+            width: 100%;
+            max-width: 200px;
+            aspect-ratio: 1 / 1;
+        }
+
+        .instructor-photo,
+        .instructor-photo-fallback {
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        .instructor-photo {
+            border: 3px solid #e5ecf2;
+        }
+
+        .instructor-photo-fallback {
+            display: grid;
+            place-items: center;
+            background: linear-gradient(135deg, #0f4e7a, #072c49);
+            color: #fff;
+            font-size: 3rem;
+            font-weight: 800;
+            font-family: var(--font-headings);
+        }
+
+        .instructor-kicker {
+            color: var(--accent-red);
+            font-weight: 700;
+            margin-bottom: 4px;
+            font-family: var(--font-headings);
+        }
+
+        .instructor-content h2 {
+            margin-bottom: 6px;
+        }
+
+        .instructor-role {
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .instructor-tagline {
+            color: #555;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .instructor-bio,
+        .instructor-exp {
+            margin-bottom: 10px;
+            color: #4f565c;
+        }
+
+        .instructor-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--primary-blue);
+            color: var(--white);
+        }
+
         /* --- Footer --- */
         footer {
             background-color: var(--primary-blue);
@@ -170,17 +264,30 @@
             .hero h1 {
                 font-size: 2rem;
             }
+
+            .instructor-card {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .instructor-photo-wrap {
+                margin: 0 auto;
+            }
+
+            .instructor-actions {
+                justify-content: center;
+            }
         }
     </style>
 </head>
-<body>
+<body class="home-page">
 
     <header>
-        <a href="#" class="logo">SITC | ICT Course</a>
+        <a href="#" class="logo">SITC | Free ICT Course</a>
     </header>
 
     <section class="hero">
-        <h1>Free ICT Foundation Course</h1>
+        <h1>Free ICT Course</h1>
         <p>Master the fundamentals of Information Technology. Access all your lecture materials, assignments, and resources right here.</p>
         <a href="#materials" class="btn">View Course Materials</a>
     </section>
@@ -189,7 +296,7 @@
         <h2 class="section-title">Course Modules</h2>
         
         <div class="grid">
-            <div class="card">
+            <div class="card card--module-intro">
                 <h3>Introduction to ICT</h3>
                 <p>Hardware, software, and the basics of computer operations.</p>
                 <div class="card-footer">
@@ -198,7 +305,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card card--module-word">
                 <h3>MS Word</h3>
                 <p>Document creation, formatting, and professional layouts.</p>
                 <div class="card-footer">
@@ -207,7 +314,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card card--module-powerpoint">
                 <h3>MS PowerPoint</h3>
                 <p>Designing engaging slides and effective presentations.</p>
                 <div class="card-footer">
@@ -216,7 +323,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card card--module-excel">
                 <h3>MS Excel</h3>
                 <p>Spreadsheets, data entry, basic formulas, and functions.</p>
                 <div class="card-footer">
@@ -225,7 +332,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card card--module-cv">
                 <h3>Professional CV</h3>
                 <p>Structuring and designing a standout resume for the job market.</p>
                 <div class="card-footer">
@@ -234,7 +341,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card card--module-google-forms">
                 <h3>Google Forms</h3>
                 <p>Creating surveys, quizzes, and collecting data online.</p>
                 <div class="card-footer">
@@ -243,7 +350,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card card--module-email">
                 <h3>Email Etiquette</h3>
                 <p>Professional communication, formatting, and email management.</p>
                 <div class="card-footer">
@@ -254,6 +361,10 @@
 
         </div>
     </div>
+
+    <section class="instructor-section" id="instructor">
+        <div class="instructor-card" data-instructor-summary></div>
+    </section>
 
     <footer>
         <p>&copy; 2026 SITC Campus | Free ICT Course Instructed by Ravindu Sooriyaarachchi</p>

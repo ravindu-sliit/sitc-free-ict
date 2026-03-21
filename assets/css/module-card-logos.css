@@ -1,0 +1,88 @@
+/* Module logo watermarks for cards */
+.card {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.card > * {
+    position: relative;
+    z-index: 1;
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 78px;
+    height: 78px;
+    background-image: var(--module-logo);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.card--module-intro {
+    --module-logo: url("../images/module-intro.png");
+}
+
+.card--module-word {
+    --module-logo: url("../images/ms-word-logo.png");
+}
+
+.card--module-powerpoint {
+    --module-logo: url("../images/ms-powerpoint-logo.png");
+}
+
+.card--module-excel {
+    --module-logo: url("../images/ms-excel-logo.png");
+}
+
+.card--module-cv {
+    --module-logo: url("../images/cv-logo.png");
+}
+
+.card--module-google-forms {
+    --module-logo: url("../images/google-forms-logo.png");
+}
+
+.card--module-email {
+    --module-logo: url("../images/gmail-logo.png");
+}
+
+/* Home page cards use solid logos and keep text clear of the icon area. */
+.home-page .card::after {
+    top: 14px;
+    right: 14px;
+    width: 64px;
+    height: 64px;
+    opacity: 1;
+}
+
+.home-page .card h3,
+.home-page .card p {
+    padding-right: 86px;
+}
+
+@media (max-width: 768px) {
+    .card::after {
+        width: 62px;
+        height: 62px;
+        opacity: 0.26;
+    }
+
+    .home-page .card::after {
+        width: 56px;
+        height: 56px;
+        opacity: 1;
+    }
+
+    .home-page .card h3,
+    .home-page .card p {
+        padding-right: 72px;
+    }
+}

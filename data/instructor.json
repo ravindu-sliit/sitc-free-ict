@@ -1,0 +1,23 @@
+{
+  "name": "Ravindu Sooriyaarachchi",
+  "role": "ICT Instructor",
+  "tagline": "Bridging core technology concepts with hands-on digital skills training",
+  "shortBio": "I conduct the Free ICT Course at SITC Campus, combining my background in software development with a practical, student-first approach focused on real outcomes.",
+  "fullBio": "I am the lead instructor for the SITC Free ICT Course, guiding students through practical, structured, and outcome-focused sessions. As an undergraduate at the Sri Lanka Institute of Information Technology (SLIIT) with a strong focus on software architecture, testing, and Android development, I help students bridge the gap between foundational computer skills and workplace-ready technical abilities.",
+  "experience": "Instructor at SITC Campus and active software development practitioner",
+  "specialties": [
+    "Software Architecture & Testing",
+    "Android Development",
+    "ICT Fundamentals & Digital Productivity",
+    "Curriculum-based IT training",
+    "Student career-readiness mentoring"
+  ],
+  "credentials": [
+    "Undergraduate at Sri Lanka Institute of Information Technology (SLIIT)",
+    "Lead ICT Instructor at SITC Campus"
+  ],
+  "email": "mailto:ravindusooriyaarachchi@gmail.com",
+  "linkedin": "www.linkedin.com/in/ravindus",
+  "portfolio": "https://ravindu-sliit.github.io/my-portfolio/",
+  "image": "assets/images/instructor.png"
+}

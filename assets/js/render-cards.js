@@ -15,8 +15,17 @@
         return url;
     }
 
+    function sanitizeClassToken(value) {
+        return String(value || "")
+            .toLowerCase()
+            .replace(/[^a-z0-9-]/g, "-")
+            .replace(/-+/g, "-")
+            .replace(/^-|-$/g, "");
+    }
+
     function buildCard(session) {
-        var cardClass = session.isAssignment ? "card card--assignment" : "card";
+        var moduleClass = "card--module-" + sanitizeClassToken(session.module);
+        var cardClass = session.isAssignment ? "card " + moduleClass + " card--assignment" : "card " + moduleClass;
         var titleClass = session.isAssignment ? "card-title card-title--assignment" : "card-title";
         var videoUrl = normalizeUrl(session.videoUrl);
         var pdfUrl = normalizeUrl(session.pdfUrl);
