@@ -1,4 +1,6 @@
 (function () {
+    var SESSION_DATA_VERSION = "2026-03-24";
+
     function escapeHtml(value) {
         return String(value)
             .replace(/&/g, "&amp;")
@@ -60,7 +62,7 @@
         }
 
         try {
-            var response = await fetch("data/sessions.json");
+            var response = await fetch("data/sessions.json?v=" + encodeURIComponent(SESSION_DATA_VERSION));
             if (!response.ok) {
                 throw new Error("Unable to load sessions.json");
             }
