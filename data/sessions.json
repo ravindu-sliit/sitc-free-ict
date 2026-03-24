@@ -155,6 +155,15 @@
       "videoUrl": "https://www.youtube.com/watch?v=_RS7oCM6DJk&list=PLJa2cPnvoywWG2I2iPEZuav8e8eDFwwNJ&index=17&pp=iAQB",
       "pdfUrl": "assets/materials/Session_17_Excel_Capstone_Project.pdf",
       "isAssignment": true
+    },
+    {
+      "order": 18,
+      "module": "google-forms",
+      "sessionNumber": "Session 18",
+      "title": "Google Forms – Create, Customize & Collect Data",
+      "description": "Explores how to build, customize, and distribute online surveys to efficiently collect and analyze data.",
+      "videoUrl": "https://youtu.be/bhdDNSQ3l8A",
+      "pdfUrl": "assets/materials/Session_18_Forms.pdf"
     }
   ]
 }
