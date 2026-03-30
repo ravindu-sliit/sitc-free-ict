@@ -164,6 +164,15 @@
       "description": "Explores how to build, customize, and distribute online surveys to efficiently collect and analyze data.",
       "videoUrl": "https://youtu.be/bhdDNSQ3l8A",
       "pdfUrl": "assets/materials/Session_18_Forms.pdf"
+    },
+    {
+      "order": 19,
+      "module": "email",
+      "sessionNumber": "Session 19",
+      "title": "Email Etiquette and Professional Communication",
+      "description": "Covers how to write clear, professional emails using proper structure, tone, and etiquette for academic and workplace communication.",
+      "videoUrl": "https://youtu.be/g6rMVL3bujo",
+      "pdfUrl": "assets/materials/Session_19_Email.pdf"
     }
   ]
 }

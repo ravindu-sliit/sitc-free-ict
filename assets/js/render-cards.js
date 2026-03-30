@@ -1,5 +1,5 @@
 (function () {
-    var SESSION_DATA_VERSION = "2026-03-24";
+    var SESSION_DATA_VERSION = "2026-03-30";
 
     function escapeHtml(value) {
         return String(value)
