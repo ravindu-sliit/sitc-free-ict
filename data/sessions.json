@@ -173,6 +173,15 @@
       "description": "Covers how to write clear, professional emails using proper structure, tone, and etiquette for academic and workplace communication.",
       "videoUrl": "https://youtu.be/g6rMVL3bujo",
       "pdfUrl": "assets/materials/Session_19_Email.pdf"
+    },
+    {
+      "order": 20,
+      "module": "graphic-design",
+      "sessionNumber": "Lecture 20",
+      "title": "Graphic Design Fundamentals with Canva",
+      "description": "Introduces practical graphic design basics, including layout, color, typography, and hands-on creation workflows using Canva.",
+      "videoUrl": "https://youtu.be/7QQqULjfsEY",
+      "pdfUrl": "#"
     }
   ]
 }
