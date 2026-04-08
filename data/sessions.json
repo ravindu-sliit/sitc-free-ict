@@ -182,6 +182,15 @@
       "description": "Introduces practical graphic design basics, including layout, color, typography, and hands-on creation workflows using Canva.",
       "videoUrl": "https://youtu.be/7QQqULjfsEY",
       "pdfUrl": "#"
+    },
+    {
+      "order": 21,
+      "module": "graphic-design",
+      "sessionNumber": "Session 21",
+      "title": "Graphic Design 2: Image Editing in the Browser",
+      "description": "Extends the graphic design module with browser-based Photopea editing, covering layers, background removal, retouching, color adjustments, and exporting polished social media graphics.",
+      "videoUrl": "https://youtu.be/CPSA1ZQnpMU",
+      "pdfUrl": "assets/materials/Session_21_Photopea.pdf"
     }
   ]
 }
