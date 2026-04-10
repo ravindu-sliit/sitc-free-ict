@@ -191,6 +191,15 @@
       "description": "Extends the graphic design module with browser-based Photopea editing, covering layers, background removal, retouching, color adjustments, and exporting polished social media graphics.",
       "videoUrl": "https://youtu.be/CPSA1ZQnpMU",
       "pdfUrl": "assets/materials/Session_21_Photopea.pdf"
+    },
+    {
+      "order": 22,
+      "module": "graphic-design",
+      "sessionNumber": "Session 22",
+      "title": "Graphic Design 3: Brand Identity & Infographics",
+      "description": "Focuses on turning dense business content into clear visual communication by applying brand identity principles and infographic design techniques for client-ready presentations.",
+      "videoUrl": "https://youtu.be/Ad-nvRTaSC4",
+      "pdfUrl": "assets/materials/Session_22_Infographics.pdf"
     }
   ]
 }
