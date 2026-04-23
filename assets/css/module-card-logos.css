@@ -58,6 +58,10 @@
     --module-logo: url("../images/canva.png");
 }
 
+.card--module-career-launchpad {
+    --module-logo: none;
+}
+
 /* Home page cards use solid logos and keep text clear of the icon area. */
 .home-page .card::after {
     top: 14px;

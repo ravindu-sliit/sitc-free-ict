@@ -200,6 +200,24 @@
       "description": "Focuses on turning dense business content into clear visual communication by applying brand identity principles and infographic design techniques for client-ready presentations.",
       "videoUrl": "https://youtu.be/Ad-nvRTaSC4",
       "pdfUrl": "assets/materials/Session_22_Infographics.pdf"
+    },
+    {
+      "order": 23,
+      "module": "graphic-design",
+      "sessionNumber": "Lecture 23",
+      "title": "Graphic Design 4: Mini Agency Workflow",
+      "description": "Applies the graphic design skills in a practical mini-agency workflow, from planning creative assets to delivering polished outputs.",
+      "videoUrl": "https://youtu.be/IRb7gBSyj9g",
+      "pdfUrl": "assets/materials/Session_23_Mini-Agency.pdf"
+    },
+    {
+      "order": 24,
+      "module": "career-launchpad",
+      "sessionNumber": "Lecture 24",
+      "title": "The Career Launchpad",
+      "description": "Introduces a dedicated career module focused on preparing students for internships and job opportunities with practical launch strategies.",
+      "videoUrl": "https://youtu.be/DnkIEHwxne4",
+      "pdfUrl": "assets/materials/Session_24_The_Career_Launchpad.pdf"
     }
   ]
 }
